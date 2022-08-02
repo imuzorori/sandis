@@ -1,0 +1,59 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header {
+        background-color: skyblue;
+        line-height: 70px;
+        padding-left: 30px;
+    }
+    
+    a,
+    a:hover {
+        color: skyblue;
+        text-decoration: none!important;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .logout {
+        float: right;
+        padding-right: 30px;
+    }
+    
+    ul {
+        background-color: #424a5b;
+        width: 16%;
+        height: 100%;
+        position: fixed;
+        padding-top: 5%;
+        text-align: center;
+    }
+    
+    ul li {
+        list-style: none;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    ul li a:hover {
+        color: skyblue;
+        background-color: #808080;
+        text-decoration: none;
+    }
+    
+    .main_container {
+        margin-left: 20%;
+        margin-top: 5%;
+    }
